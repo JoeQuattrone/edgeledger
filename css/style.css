@@ -98,6 +98,10 @@ p {
   color: white;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: white;
+}
 
 
 /* Navbar */
@@ -185,7 +189,7 @@ p {
   background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
-/* Clients */
+/*Section: Clients */
 
 #clients .items {
   display: flex;
@@ -195,4 +199,13 @@ p {
   display: block;
   width: 60%;
   margin: auto;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+}
+
+#contact .map, #contact .contact-form {
+  flex: 1;
 }
